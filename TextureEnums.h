@@ -1,0 +1,77 @@
+#pragma once
+
+/*
+	Any texture that needs to be loaded should be added here.
+	Manages the SRV Heap offset when used in the texture loading process.
+*/
+
+enum GameTextureDescriptors
+{
+	//Sprites
+	MAIN_GAME_BG_00,
+	TEST_TILEMAP_00,
+	ASSASSIN_CLASS_SS_00,
+	BARBARIAN_CLASS_SS_00,
+	CENTAUR_CLASS_SS_00,
+	NECROMANCER_CLASS_SS_00,
+	SORCERESS_CLASS_SS_00,
+	WARRIOR_CLASS_SS_00,
+	//Backgrounds
+	START_MENU_BG_00,
+	MAIN_MENU_BG_00,
+	TUTORIAL_00,
+	//UI
+	UI_ATLAS_01,
+	//Battle Scenes
+	BATTLE_SCENE_BRIDGE,
+	BATTLE_SCENE_GRASS,
+	BATTLE_SCENE_SAND,
+	//Total Count
+	RESOURCE_COUNT
+};
+
+enum GameFonts
+{
+	SF_ALLOYINK_10,
+	SF_ALLOYINK_12,
+	SF_ALLOYINK_14,
+	SF_ALLOYINK_16,
+	SF_ALLOYINK_18,
+	SF_ALLOYINK_20,
+	SF_212_KEYBOARD_48,
+	FONT_COUNT
+};
+
+//Sum count of resources to make descriptors for
+const int RESOURCE_RESERVE_COUNT = GameTextureDescriptors::RESOURCE_COUNT + GameFonts::FONT_COUNT;
+
+///////////////////
+/// UI_ATLAS_01 ///
+///////////////////
+
+enum UI_ATLAS_01_FRAMES
+{
+	MENU_1024x1024,
+	MENU_512x512,
+	MENU_384x512,
+	MENU_192x512,
+	MENU_512x256,
+	MENU_256x256,
+	MENU_192x256,
+	UNIT_HIGHLIGHT_BLUE_384x160,
+	MENU_196x96,
+	MENU_64x64,
+	CURSOR_HIGHLIGHT_96x24,
+	CURSOR_HIGHLIGHT_176x48,
+	ARROW_SHAPE_DOWN,
+	ARROW_SHAPE_LEFT,
+	ARROW_SHAPE_RIGHT,
+	CURSOR_POINTER_22x12,
+	UNIT_HIGHLIGHT_RED_384x160,
+	MENU_128x128,
+	ARROW_SHAPE_UP,
+	ATTACK_TILE_HIGHLIGHT,
+	MAIN_CURSOR,
+	MOVE_TILE_HIGHLIGHT,
+	NULL_FRAME
+};

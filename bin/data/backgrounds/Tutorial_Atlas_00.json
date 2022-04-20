@@ -1,0 +1,165 @@
+{
+  "frames": [
+    {
+      "filename": "Tutorial_00.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Tutorial_01.png",
+      "frame": {
+        "x": 1920,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Tutorial_02.png",
+      "frame": {
+        "x": 0,
+        "y": 1080,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Tutorial_03.png",
+      "frame": {
+        "x": 1920,
+        "y": 1080,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Tutorial_04.png",
+      "frame": {
+        "x": 0,
+        "y": 2160,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "Tutorial_05.png",
+      "frame": {
+        "x": 1920,
+        "y": 2160,
+        "w": 1920,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "Tutorial_Atlas_00.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 4048,
+      "h": 4048
+    },
+    "scale": 1
+  }
+}

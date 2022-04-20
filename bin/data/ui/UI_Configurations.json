@@ -1,0 +1,1134 @@
+{
+    "UI Elements": [
+        {
+            "Unique UI ID": 0,
+            "UI Type": 0,
+            "Creation Count": 1,
+            "UI Name": "Unit_Menu_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "Cursor Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "Cursor Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 6,
+            "Cursor Frame ID": 11,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "Cursor Anchor Pos X": 108.0,
+            "Cursor Anchor Pos Y": 108.0,
+            "Text Anchor Pos X": 112.0,
+            "Text Anchor Pos Y": 136.0,
+            "Index Max X": 0,
+            "Index Max Y": 3,
+            "Default Index Pos X": 0,
+            "Default Index Pos Y": 0,
+            "Cursor Offset X": 0.0,
+            "Cursor Offset Y": 48.0,
+            "UI Strings": [
+                {
+                    "Message": "Actions",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Move",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Status",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "End Action",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 1,
+            "UI Type": 0,
+            "Creation Count": 1,
+            "UI Name": "Unit_Action_Menu_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "Cursor Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "Cursor Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 6,
+            "Cursor Frame ID": 11,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "Cursor Anchor Pos X": 108.0,
+            "Cursor Anchor Pos Y": 108.0,
+            "Text Anchor Pos X": 112.0,
+            "Text Anchor Pos Y": 136.0,
+            "Index Max X": 0,
+            "Index Max Y": 3,
+            "Default Index Pos X": 0,
+            "Default Index Pos Y": 0,
+            "Cursor Offset X": 0.0,
+            "Cursor Offset Y": 48.0,
+            "UI Strings": [
+                {
+                    "Message": "Attack",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Skill 1",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Skill 2",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Skill 3",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 2,
+            "UI Type": 0,
+            "Creation Count": 1,
+            "UI Name": "Unit_Magic_Menu_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "Cursor Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "Cursor Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 2,
+            "Cursor Frame ID": 11,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "Cursor Anchor Pos X": 108.0,
+            "Cursor Anchor Pos Y": 108.0,
+            "Text Anchor Pos X": 176.0,
+            "Text Anchor Pos Y": 122.0,
+            "Index Max X": 1,
+            "Index Max Y": 7,
+            "Default Index Pos X": 0,
+            "Default Index Pos Y": 0,
+            "Cursor Offset X": 192.0,
+            "Cursor Offset Y": 64.0,
+            "UI Strings": [
+                {
+                    "Message": "Basic",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Heal",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 5",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 7",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 9",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 11",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 13",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 15",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 2",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 4",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 6",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 8",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 10",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 12",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 14",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Magic 16",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 3,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Target_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 8,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "UI Strings": [
+                {
+                    "Message": "Target?",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 133.0,
+                    "Pos Y": 148.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 4,
+            "UI Type": 0,
+            "Creation Count": 1,
+            "UI Name": "Main_Menu_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "Cursor Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "Cursor Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 5,
+            "Cursor Frame ID": 11,
+            "UI Pos X": 832.0,
+            "UI Pos Y": 420.0,
+            "Cursor Anchor Pos X": 842.0,
+            "Cursor Anchor Pos Y": 426.0,
+            "Text Anchor Pos X": 960.0,
+            "Text Anchor Pos Y": 438.0,
+            "Index Max X": 0,
+            "Index Max Y": 2,
+            "Default Index Pos X": 0,
+            "Default Index Pos Y": 0,
+            "Cursor Offset X": 0.0,
+            "Cursor Offset Y": 48.0,
+            "UI Strings": [
+                {
+                    "Message": "Play Game",
+                    "Font ID": 5,
+                    "Text Justification ID": 6,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "How To Play",
+                    "Font ID": 5,
+                    "Text Justification ID": 6,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                },
+                {
+                    "Message": "Exit Game",
+                    "Font ID": 5,
+                    "Text Justification ID": 6,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 5,
+            "UI Type": 0,
+            "Creation Count": 1,
+            "UI Name": "Non-Unit_Menu_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "Cursor Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "Cursor Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 6,
+            "Cursor Frame ID": 11,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "Cursor Anchor Pos X": 108.0,
+            "Cursor Anchor Pos Y": 108.0,
+            "Text Anchor Pos X": 112.0,
+            "Text Anchor Pos Y": 136.0,
+            "Index Max X": 0,
+            "Index Max Y": 0,
+            "Default Index Pos X": 0,
+            "Default Index Pos Y": 0,
+            "Cursor Offset X": 0.0,
+            "Cursor Offset Y": 48.0,
+            "UI Strings": [
+                {
+                    "Message": "End Turn",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 6,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Tile_Tooltip_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 5,
+            "UI Pos X": 1632.0,
+            "UI Pos Y": 972.0,
+            "UI Strings": [
+                {
+                    "Message": "TileName",
+                    "Font ID": 5,
+                    "Text Justification ID": 7,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1760.0,
+                    "Pos Y": 1010.0
+                },
+                {
+                    "Message": "Cost: ",
+                    "Font ID": 3,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1640.0,
+                    "Pos Y": 1030.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 7,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Friendly_Unit_Tooltip_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 7,
+            "UI Pos X": 0.0,
+            "UI Pos Y": 600.0,
+            "UI Strings": [
+                {
+                    "Message": "Name: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 64.0,
+                    "Pos Y": 640.0
+                },
+                {
+                    "Message": "HP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 64.0,
+                    "Pos Y": 680.0
+                },
+                {
+                    "Message": "MP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 64.0,
+                    "Pos Y": 720.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 8,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Enemy_Unit_Tooltip_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 16,
+            "UI Pos X": 1536.0,
+            "UI Pos Y": 600.0,
+            "UI Strings": [
+                {
+                    "Message": "Name: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 1600.0,
+                    "Pos Y": 640.0
+                },
+                {
+                    "Message": "HP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 1600.0,
+                    "Pos Y": 680.0
+                },
+                {
+                    "Message": "MP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 1600.0,
+                    "Pos Y": 720.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 9,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Ability_Tooltip_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 4,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 800.0,
+            "UI Strings": [
+                {
+                    "Message": "Placeholder Name",
+                    "Font ID": 5,
+                    "Text Justification ID": 7,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 356.0,
+                    "Pos Y": 840.0
+                },
+                {
+                    "Message": "MP Cost: ",
+                    "Font ID": 4,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 108.0,
+                    "Pos Y": 865.0
+                },
+                {
+                    "Message": "Range: ",
+                    "Font ID": 4,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 282.0,
+                    "Pos Y": 865.0
+                },
+                {
+                    "Message": "Radius: ",
+                    "Font ID": 4,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 420.0,
+                    "Pos Y": 865.0
+                },
+                {
+                    "Message": "This is a PH tooltip to test how \ntooltips might work in practice.",
+                    "Font ID": 3,
+                    "Text Justification ID": 0,
+                    "R": 0.960,
+                    "G": 1,
+                    "B": 0.980,
+                    "A": 1.0,
+                    "Pos X": 108.0,
+                    "Pos Y": 895.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 10,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Unit_Selection_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 17,
+            "UI Pos X": 150.0,
+            "UI Pos Y": 100.0,
+            "UI Strings": [
+                {
+                    "Message": "Select Unit",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 124.0,
+                    "Pos Y": 90.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 11,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Unit_Selection_Arrow_Left_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 13,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 140.0,
+            "UI Strings": [
+
+            ]
+        },
+        {
+            "Unique UI ID": 12,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Unit_Selection_Arrow_Right_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 14,
+            "UI Pos X": 280.0,
+            "UI Pos Y": 140.0,
+            "UI Strings": [
+
+            ]
+        },
+        {
+            "Unique UI ID": 13,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Unit_Placement_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 8,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "UI Strings": [
+                {
+                    "Message": "Place Unit",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 133.0,
+                    "Pos Y": 148.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 14,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Team_Selection_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 8,
+            "UI Pos X": 864.0,
+            "UI Pos Y": 20.0,
+            "UI Strings": [
+                {
+                    "Message": "Team ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 906.0,
+                    "Pos Y": 70.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 15,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Game_Over_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 1,
+            "UI Pos X": 704.0,
+            "UI Pos Y": 200.0,
+            "UI Strings": [
+                {
+                    "Message": "What Team Won Message Here",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 854.0,
+                    "Pos Y": 320.0
+                },
+                {
+                    "Message": "Press 'F' to play again or\n     'ESC' to exit game.",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 764.0,
+                    "Pos Y": 600.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 16,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Unit_Status_Frame_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 1,
+            "UI Pos X": 100.0,
+            "UI Pos Y": 100.0,
+            "UI Strings": [
+                {
+                    "Message": "Unit Name: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 128.0
+                },
+                {
+                    "Message": "Class: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 164.0
+                },
+                {
+                    "Message": "HP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 200.0
+                },
+                {
+                    "Message": "MP: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 236.0
+                },
+                {
+                    "Message": "Movespeed: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 272.0
+                },
+                {
+                    "Message": "Slot 1: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 308.0
+                },
+                {
+                    "Message": "Slot 2: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 344.0
+                },
+                {
+                    "Message": "Slot 3: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 380.0
+                },
+                {
+                    "Message": "Slot 4: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 416.0
+                },
+                {
+                    "Message": "Slot 5: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 452.0
+                },
+                {
+                    "Message": "Skill 1: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 488.0
+                },
+                {
+                    "Message": "Skill 2: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 524.0
+                },
+                {
+                    "Message": "Skill 3: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 1,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 112.0,
+                    "Pos Y": 560.0
+                }
+
+            ]
+        },
+        {
+            "Unique UI ID": 17,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Context_Controls_00",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 22,
+            "UI Pos X": 0.0,
+            "UI Pos Y": 1040.0,
+            "UI Strings": [
+                {
+                    "Message": "Move: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 40.0
+                },
+                {
+                    "Message": "WASD",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1900.0,
+                    "Pos Y": 42.0
+                },
+                {
+                    "Message": "Confirm: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 80.0
+                },
+                {
+                    "Message": "F",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 82.0
+                },
+                {
+                    "Message": "Back: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 120.0
+                },
+                {
+                    "Message": "m",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 122.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 18,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Context_Controls_01",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 22,
+            "UI Pos X": 0.0,
+            "UI Pos Y": 1040.0,
+            "UI Strings": [
+                {
+                    "Message": "Move: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 40.0
+                },
+                {
+                    "Message": "WS",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1865.0,
+                    "Pos Y": 42.0
+                },
+                {
+                    "Message": "Confirm: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 80.0
+                },
+                {
+                    "Message": "F",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 82.0
+                },
+                {
+                    "Message": "Back: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 120.0
+                },
+                {
+                    "Message": "m",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 122.0
+                }
+            ]
+        },
+        {
+            "Unique UI ID": 19,
+            "UI Type": 1,
+            "Creation Count": 1,
+            "UI Name": "Context_Controls_02",
+            "UI Texture Filepath": "data/ui/UI_Atlas_01.dds",
+            "UI Texture Access Name": "UI_Atlas_01",
+            "UI Frame ID": 22,
+            "UI Pos X": 0.0,
+            "UI Pos Y": 1040.0,
+            "UI Strings": [
+                {
+                    "Message": "Move: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 40.0
+                },
+                {
+                    "Message": "AD",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1865.0,
+                    "Pos Y": 42.0
+                },
+                {
+                    "Message": "Confirm: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 80.0
+                },
+                {
+                    "Message": "F",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 82.0
+                },
+                {
+                    "Message": "Back: ",
+                    "Font ID": 5,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1765.0,
+                    "Pos Y": 120.0
+                },
+                {
+                    "Message": "m",
+                    "Font ID": 6,
+                    "Text Justification ID": 4,
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Pos X": 1850.0,
+                    "Pos Y": 122.0
+                }
+            ]
+        }
+    ]
+}

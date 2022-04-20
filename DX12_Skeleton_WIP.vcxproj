@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{119f9168-b6fd-4678-bfd5-b7005187ca1a}</ProjectGuid>
+    <RootNamespace>DX122DSkeleton</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\..\DirectXTK12\Bin\Desktop_2019_Win10\x64\Debug;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\..\DirectXTK12\Bin\Desktop_2019_Win10\x64\Release;</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\..\DirectXTK12\Inc;..\..\RapidJSON\include\rapidjson;</AdditionalIncludeDirectories>
+      <BrowseInformation>false</BrowseInformation>
+      <AdditionalOptions>/wd4005 /wd4996 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)/bin/$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>directXTK12.lib;d3d12.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;Xinput9_1_0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\..\DirectXTK12\Inc;..\..\RapidJSON\include\rapidjson;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/wd4005 /wd4996</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)/bin/$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>directXTK12.lib;d3d12.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;Xinput9_1_0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2DCameraTypes.cpp" />
+    <ClCompile Include="All_Includes.h" />
+    <ClCompile Include="AnimTestEntity.cpp" />
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="MainGameMode.cpp" />
+    <ClCompile Include="CursorEntity.cpp" />
+    <ClCompile Include="D3D.cpp" />
+    <ClCompile Include="D3DUtils.cpp" />
+    <ClCompile Include="D3DUtils_Debug.cpp" />
+    <ClCompile Include="EntityInterface.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameplayManager.cpp" />
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="GeneralUtils.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuMode.cpp" />
+    <ClCompile Include="MapTile.cpp" />
+    <ClCompile Include="MapTilePathfinding.cpp" />
+    <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="ModeManager.cpp" />
+    <ClCompile Include="NavigatableUIElement.cpp" />
+    <ClCompile Include="NonNavigationUIElement.cpp" />
+    <ClCompile Include="RapidJSONLoaderUtils.cpp" />
+    <ClCompile Include="SkillInterface.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StartScreenMode.cpp" />
+    <ClCompile Include="TargetingSystems.cpp" />
+    <ClCompile Include="TestEntity.cpp" />
+    <ClCompile Include="TilemapUtils.cpp" />
+    <ClCompile Include="UIElementManager.cpp" />
+    <ClCompile Include="UnitEntity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2DCameraTypes.h" />
+    <ClInclude Include="AnimTestEntity.h" />
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="MainGameMode.h" />
+    <ClInclude Include="CursorEntity.h" />
+    <ClInclude Include="D3D.h" />
+    <ClInclude Include="D3DUtils.h" />
+    <ClInclude Include="D3DUtils_Debug.h" />
+    <ClInclude Include="EntityInterface.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameConstants.h" />
+    <ClInclude Include="GameplayManager.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="GameTypes.h" />
+    <ClInclude Include="GameUtilities.h" />
+    <ClInclude Include="GeneralUtils.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="MainMenuMode.h" />
+    <ClInclude Include="MapTile.h" />
+    <ClInclude Include="MapTilePathfinding.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="ModeInterface.h" />
+    <ClInclude Include="ModeManager.h" />
+    <ClInclude Include="NavigatableUIElement.h" />
+    <ClInclude Include="NonNavigationUIElement.h" />
+    <ClInclude Include="RapidJSONLoaderUtils.h" />
+    <ClInclude Include="SkillInterface.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StartScreenMode.h" />
+    <ClInclude Include="TargetingSystems.h" />
+    <ClInclude Include="TestEntity.h" />
+    <ClInclude Include="TextureEnums.h" />
+    <ClInclude Include="TilemapUtils.h" />
+    <ClInclude Include="UIElementManager.h" />
+    <ClInclude Include="UnitEntity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\ClassAndEquipment\AbilityData.json" />
+    <None Include="bin\data\ClassAndEquipment\ClassData.json" />
+    <None Include="bin\data\ClassAndEquipment\EquipmentData.json" />
+    <None Include="bin\data\sprites\tilemaps\Tilemap_00.json" />
+    <None Include="bin\data\sprites\units\Assassin_Class_Spritesheet.json" />
+    <None Include="bin\data\sprites\units\Barbarian_Class_Spritesheet.json" />
+    <None Include="bin\data\sprites\units\Centaur_Class_Spritesheet.json" />
+    <None Include="bin\data\sprites\units\Necromancer_Class_Spritesheet.json" />
+    <None Include="bin\data\sprites\units\Sorceress_Class_Spritesheet.json" />
+    <None Include="bin\data\sprites\units\Warrior_Class_Spritesheet.json" />
+    <None Include="bin\data\ui\UI_Atlas_01.json" />
+    <None Include="bin\data\ui\UI_Configurations.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

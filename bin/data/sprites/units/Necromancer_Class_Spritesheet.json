@@ -1,0 +1,1321 @@
+{
+    "frames": [
+        {
+            "filename": "ATTACK 1.png",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ATTACK 2.png",
+            "frame": {
+                "x": 320,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ATTACK 3.png",
+            "frame": {
+                "x": 640,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 1.png",
+            "frame": {
+                "x": 960,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 2.png",
+            "frame": {
+                "x": 1280,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 3.png",
+            "frame": {
+                "x": 1600,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 4.png",
+            "frame": {
+                "x": 1920,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 5.png",
+            "frame": {
+                "x": 2240,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 6.png",
+            "frame": {
+                "x": 2560,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "DEFEAT 7.png",
+            "frame": {
+                "x": 2880,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "FALL 1.png",
+            "frame": {
+                "x": 3200,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "FALL 2.png",
+            "frame": {
+                "x": 3520,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "FALL 3.png",
+            "frame": {
+                "x": 0,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HIT 1.png",
+            "frame": {
+                "x": 320,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HIT 2.png",
+            "frame": {
+                "x": 640,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HIT 3.png",
+            "frame": {
+                "x": 960,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HIT 4.png",
+            "frame": {
+                "x": 1280,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HIT 5.png",
+            "frame": {
+                "x": 1600,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HURT 1.png",
+            "frame": {
+                "x": 1920,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HURT 2.png",
+            "frame": {
+                "x": 2240,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "HURT 3.png",
+            "frame": {
+                "x": 2560,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "IDLE 1.png",
+            "frame": {
+                "x": 2880,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "IDLE 2.png",
+            "frame": {
+                "x": 3200,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "IDLE 3.png",
+            "frame": {
+                "x": 3520,
+                "y": 320,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "IDLE 4.png",
+            "frame": {
+                "x": 0,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "JUMP 1.png",
+            "frame": {
+                "x": 320,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "JUMP 2.png",
+            "frame": {
+                "x": 640,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "JUMP 3.png",
+            "frame": {
+                "x": 960,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "JUMP 4.png",
+            "frame": {
+                "x": 1280,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PICK UP 1.png",
+            "frame": {
+                "x": 1600,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PICK UP 2.png",
+            "frame": {
+                "x": 1920,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PULL 1.png",
+            "frame": {
+                "x": 2240,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PULL 2.png",
+            "frame": {
+                "x": 2560,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PULL 3.png",
+            "frame": {
+                "x": 2880,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PULL 4.png",
+            "frame": {
+                "x": 3200,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PUSH 1.png",
+            "frame": {
+                "x": 3520,
+                "y": 640,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PUSH 2.png",
+            "frame": {
+                "x": 0,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PUSH 3.png",
+            "frame": {
+                "x": 320,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "PUSH 4.png",
+            "frame": {
+                "x": 640,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "S ABILITY 1.png",
+            "frame": {
+                "x": 960,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "S ABILITY 2.png",
+            "frame": {
+                "x": 1280,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "S ABILITY 3.png",
+            "frame": {
+                "x": 1600,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "S ABILITY 4.png",
+            "frame": {
+                "x": 1920,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "SHOT 1.png",
+            "frame": {
+                "x": 2240,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "SHOT 2.png",
+            "frame": {
+                "x": 2560,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "WALK 1.png",
+            "frame": {
+                "x": 2880,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "WALK 2.png",
+            "frame": {
+                "x": 3200,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "WALK 3.png",
+            "frame": {
+                "x": 3520,
+                "y": 960,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "WALK 4.png",
+            "frame": {
+                "x": 0,
+                "y": 1280,
+                "w": 320,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 320,
+                "h": 320
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "animations": [
+        {
+            "Animation Name": "Attack_00",
+            "Animation Start": 0,
+            "Animation End": 2,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Defeat_00",
+            "Animation Start": 3,
+            "Animation End": 9,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Fall_00",
+            "Animation Start": 10,
+            "Animation End": 12,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Hit_00",
+            "Animation Start": 13,
+            "Animation End": 17,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Hurt_00",
+            "Animation Start": 18,
+            "Animation End": 20,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Idle_00",
+            "Animation Start": 21,
+            "Animation End": 24,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Jump_00",
+            "Animation Start": 25,
+            "Animation End": 28,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Pick_Up_00",
+            "Animation Start": 29,
+            "Animation End": 30,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Pull_00",
+            "Animation Start": 31,
+            "Animation End": 34,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Push_00",
+            "Animation Start": 35,
+            "Animation End": 38,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Special_Attack_00",
+            "Animation Start": 39,
+            "Animation End": 42,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Shot_00",
+            "Animation Start": 43,
+            "Animation End": 44,
+            "Animation Speed": 3
+        },
+        {
+            "Animation Name": "Walk_00",
+            "Animation Start": 45,
+            "Animation End": 48,
+            "Animation Speed": 3
+        }
+
+    ],
+    "meta": {
+        "app": "http://free-tex-packer.com",
+        "version": "0.6.7",
+        "image": "Necromancer_Class_Spritesheet.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 4096,
+            "h": 2048
+        },
+        "scale": 1
+    }
+}

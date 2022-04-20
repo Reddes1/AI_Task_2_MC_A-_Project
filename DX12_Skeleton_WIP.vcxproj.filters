@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Windows/D3D">
+      <UniqueIdentifier>{0312729f-e4a8-420c-b1c8-fd6d91d972cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{82957d3a-6e88-4a34-aadb-073d82f05691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Functionality">
+      <UniqueIdentifier>{5e26035d-fb8a-4504-a66a-e3a87d4602be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Modes">
+      <UniqueIdentifier>{80f31a9d-02a3-4505-9ccf-6408096585ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{3001ae40-5ee0-4842-bdf3-c33c42d379a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Game">
+      <UniqueIdentifier>{974faf14-2e21-4c19-8699-6c649b728910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Program Functionality">
+      <UniqueIdentifier>{917787b7-da88-4ac5-8e6c-60b084e54f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Other">
+      <UniqueIdentifier>{d0512245-a986-45f4-bd01-bf30e1328105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Terrain">
+      <UniqueIdentifier>{cf348d83-a2fe-402d-96dc-696ffe731d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Entities">
+      <UniqueIdentifier>{2c164007-6181-4ad7-bbdd-9ea9bbddb210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Functionality\Types">
+      <UniqueIdentifier>{c5dc851f-cd26-4f6d-a601-77aab4172522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Functionality\Functionality">
+      <UniqueIdentifier>{bb48ef61-dc99-4e7c-9df0-fa8d7ffaa048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Testing">
+      <UniqueIdentifier>{c742b89c-f8bb-4fe3-8d1a-e2eb39b41a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Modes\Navigational Modes">
+      <UniqueIdentifier>{176a0cfe-6883-462b-b2ec-7f0487b5f1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Modes\Game">
+      <UniqueIdentifier>{4e8c28a2-58a8-4e94-8cee-5a41bfb09092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Modes\Testing">
+      <UniqueIdentifier>{3d3e170d-415a-4c4e-b470-59452d9e85eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Managers">
+      <UniqueIdentifier>{712acc18-d8c1-406a-bb99-08665e76fd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\UI">
+      <UniqueIdentifier>{2083fe9d-9715-48b9-93f5-ff4c83b9241c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Functionality\Game">
+      <UniqueIdentifier>{1f062ac7-90d1-48bb-a000-d49f4ef9717e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RapidJson Files">
+      <UniqueIdentifier>{c12d9c35-2429-4dde-877f-adde25aedf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RapidJson Files\Classes">
+      <UniqueIdentifier>{6b285d0c-5ebc-4055-9b48-75ba3f82dd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RapidJson Files\Tilemaps">
+      <UniqueIdentifier>{9df9a16d-8e75-4928-ba51-ccb64ad8b32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RapidJson Files\UI">
+      <UniqueIdentifier>{bc6844ac-d7fb-4742-a613-f942797d9ac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Windows/D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEntity.cpp">
+      <Filter>Game Objects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapUtils.cpp">
+      <Filter>Utilities\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtils.cpp">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtils_Debug.cpp">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="All_Includes.h">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Utilities\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="RapidJSONLoaderUtils.cpp">
+      <Filter>Utilities\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralUtils.cpp">
+      <Filter>Utilities\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Windows/D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Game Objects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Functionality\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityInterface.cpp">
+      <Filter>Game Functionality\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeManager.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Functionality\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimTestEntity.cpp">
+      <Filter>Game Objects\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuMode.cpp">
+      <Filter>Game Modes\Navigational Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreenMode.cpp">
+      <Filter>Game Modes\Navigational Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigatableUIElement.cpp">
+      <Filter>Game Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElementManager.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitEntity.cpp">
+      <Filter>Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorEntity.cpp">
+      <Filter>Game Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="2DCameraTypes.cpp">
+      <Filter>Game Functionality\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTilePathfinding.cpp">
+      <Filter>Game Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameMode.cpp">
+      <Filter>Game Modes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayManager.cpp">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="NonNavigationUIElement.cpp">
+      <Filter>Game Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillInterface.cpp">
+      <Filter>Game Functionality\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetingSystems.cpp">
+      <Filter>Game Objects\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D.h">
+      <Filter>Windows/D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEntity.h">
+      <Filter>Game Objects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapUtils.h">
+      <Filter>Utilities\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtilities.h">
+      <Filter>Utilities\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtils.h">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtils_Debug.h">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Utilities\Program Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Utilities\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="RapidJSONLoaderUtils.h">
+      <Filter>Utilities\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralUtils.h">
+      <Filter>Utilities\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTile.h">
+      <Filter>Game Objects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Functionality\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInterface.h">
+      <Filter>Game Functionality\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConstants.h">
+      <Filter>Game Functionality\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeInterface.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeManager.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTypes.h">
+      <Filter>Game Functionality\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Functionality\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimTestEntity.h">
+      <Filter>Game Objects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuMode.h">
+      <Filter>Game Modes\Navigational Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreenMode.h">
+      <Filter>Game Modes\Navigational Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigatableUIElement.h">
+      <Filter>Game Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElementManager.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitEntity.h">
+      <Filter>Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorEntity.h">
+      <Filter>Game Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="2DCameraTypes.h">
+      <Filter>Game Functionality\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTilePathfinding.h">
+      <Filter>Game Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameMode.h">
+      <Filter>Game Modes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayManager.h">
+      <Filter>Game Functionality\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="NonNavigationUIElement.h">
+      <Filter>Game Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillInterface.h">
+      <Filter>Game Functionality\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetingSystems.h">
+      <Filter>Game Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureEnums.h">
+      <Filter>Game Functionality\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\sprites\units\Assassin_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\sprites\units\Barbarian_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\sprites\units\Centaur_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\sprites\units\Necromancer_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\sprites\units\Sorceress_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\sprites\units\Warrior_Class_Spritesheet.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\ui\UI_Atlas_01.json">
+      <Filter>RapidJson Files\UI</Filter>
+    </None>
+    <None Include="bin\data\sprites\tilemaps\Tilemap_00.json">
+      <Filter>RapidJson Files\Tilemaps</Filter>
+    </None>
+    <None Include="bin\data\ClassAndEquipment\ClassData.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\ClassAndEquipment\AbilityData.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\ClassAndEquipment\EquipmentData.json">
+      <Filter>RapidJson Files\Classes</Filter>
+    </None>
+    <None Include="bin\data\ui\UI_Configurations.json">
+      <Filter>RapidJson Files\UI</Filter>
+    </None>
+  </ItemGroup>
+</Project>
