@@ -66,6 +66,18 @@ public:
 	static MapTile* FindTileInArray(std::vector<MapTile*>& container, DirectX::XMINT2& coords, int rowSize);
 
 
+	////////////////////////
+	/// A* Functionality ///
+	////////////////////////
+
+	void CalculateCosts(DirectX::XMINT2& origin, DirectX::XMINT2& target);
+
+	float& GetGCost() { return m_GCost; }
+	float& GetHCost() { return m_HCost; }
+	float& GetFCost() { return m_FCost; }
+	MapTile*& GetParentTile() { return m_ParentTile; }
+
+
 private:
 
 	//Tile Grid Effect Sprite
@@ -76,5 +88,22 @@ private:
 	//0 = North, 1 = East, 2 = South, 3 = West
 	MapTile* m_Pointers[4] = { nullptr, nullptr, nullptr, nullptr };
 	TileProperties m_Properties;
+
+	////////////////////////
+	/// A* Functionality ///
+	////////////////////////
+
+	void IsNumberNegative(float& num) { if (num < 0)	num = -num; }
+
+	//Distance from origin
+	float m_GCost = 0;
+	//Distance to target
+	float m_HCost = 0;
+	//Sum of G and H
+	float m_FCost = 0;
+	//Parent tile in terms of the path
+	MapTile* m_ParentTile = nullptr;
+
+
 
 };

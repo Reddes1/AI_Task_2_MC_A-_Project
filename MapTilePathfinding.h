@@ -42,11 +42,19 @@ public:
 	void GenerateTileGrid(std::vector<MapTile*>& tileContainer, UnitEntity* unit, int mapRowLength);
 
 	//Check to see if this tile is in the grid
-	bool IsTileInGrid(const MapTile* tile);
+	bool IsTileInGrid(MapTile* tile);
 	
 	//Releases hold of all tiles currently highlighted.
 	//Calls a release policy on the nodes to clear the grid effect before release.
 	void ReleaseManifest();
+
+	////////////////////
+	/// A* Functions ///
+	////////////////////
+
+	void RunAStarAlgorithm(MapTile* startingTile, MapTile* targetTile);
+	void ResetGridEffectToDefault();
+
 	
 private:
 
@@ -65,6 +73,15 @@ private:
 	void ApplyGridEffect(MapTile* tile);
 	void RemoveGridEffect(MapTile* tile);
 
+
+	////////////////////
+	/// A* Functions ///
+	////////////////////
+
+	void FindLowestFCostNode(MapTile*& node, std::vector<MapTile*>& nodes);
+	void RemoveNodeFromContainer(MapTile*& node, std::vector<MapTile*>& nodes);
+	bool IsNodeInContainer(MapTile* node, std::vector<MapTile*>& nodes);
+	void EnablePath(MapTile*& endpoint);
 
 	////////////
 	/// Data ///

@@ -1,4 +1,5 @@
 #include "MapTilePathfinding.h"
+#include "TextureEnums.h"
 
 using namespace DirectX;
 
@@ -89,7 +90,7 @@ void MapTilePathfinder::GenerateTileGrid(std::vector<MapTile*>& tileContainer, U
 
 }
 
-bool MapTilePathfinder::IsTileInGrid(const MapTile* tile)
+bool MapTilePathfinder::IsTileInGrid(MapTile* tile)
 {
 	//Attempt to find a match for the tile
 	if (std::find(m_GridManifest.begin(), m_GridManifest.end(), tile) != m_GridManifest.end())
@@ -103,6 +104,7 @@ void MapTilePathfinder::ReleaseManifest()
 	for (auto& m : m_GridManifest)
 	{
 		//Turn off/disable grid
+		m->GetParentTile() = nullptr;
 		RemoveGridEffect(m);
 	}
 
@@ -173,4 +175,141 @@ void MapTilePathfinder::ApplyGridEffect(MapTile* tile)
 void MapTilePathfinder::RemoveGridEffect(MapTile* tile)
 {
 	tile->SetDrawGridFlag(false);
+}
+
+void MapTilePathfinder::ResetGridEffectToDefault()
+{
+	for (auto& a : m_GridManifest)
+	{
+		a->GetGridSprite().SetFrame(21);
+		a->GetParentTile() = nullptr;
+		a->SetDrawGridFlag(true);
+	}
+}
+
+void MapTilePathfinder::RunAStarAlgorithm(MapTile* startingTile, MapTile* targetTile)
+{
+	//This container holds nodes that need to be evaluated
+	std::vector<MapTile*> openNodes;
+	//This container holds the nodes that have been evaluated
+	std::vector<MapTile*> closedNodes;
+
+	//Setup starting node
+	startingTile->CalculateCosts(startingTile->GetMapCoordinates(), targetTile->GetMapCoordinates());
+
+	//Push starting node into open nodes
+	openNodes.push_back(startingTile);
+
+	while (openNodes.size() > 0)
+	{
+		
+		MapTile* currentNode = nullptr;
+
+		//Find the lowest F Cost node in open nodes
+		FindLowestFCostNode(currentNode, openNodes);
+		RemoveNodeFromContainer(currentNode, openNodes);
+		closedNodes.push_back(currentNode);
+
+
+		//Check if the current node is the target node break out
+		if ((currentNode->GetMapCoordinates().x == targetTile->GetMapCoordinates().x) &&
+			(currentNode->GetMapCoordinates().y == targetTile->GetMapCoordinates().y))
+
+		{
+			//Enable effect on each tile in path
+			EnablePath(currentNode);
+			return;
+		}
+
+		//Start looking at the neighbours
+
+		for (int i(0); i < NUM_OF_NEIGHBOURS; ++i)
+		{
+			//Validate if this neighbour needs evaluating or not
+			if (currentNode->GetNeighbourAtIndex(i) &&
+				IsTileInGrid(currentNode->GetNeighbourAtIndex(i)) &&
+				!currentNode->GetNeighbourAtIndex(i)->GetTileProperties().impassable &&
+				!IsNodeInContainer(currentNode->GetNeighbourAtIndex(i), closedNodes))
+			{
+				//Create new node and calculate information about the node
+				MapTile* newNode = currentNode->GetNeighbourAtIndex(i);
+				newNode->CalculateCosts(startingTile->GetMapCoordinates(), targetTile->GetMapCoordinates());
+
+				//Check if H is lower OR not inside the open nodes container
+				if ((newNode->GetHCost() < currentNode->GetHCost()) || !IsNodeInContainer(newNode, openNodes))
+				{
+					//Set the new nodes parent at the currently examined tile
+					newNode->GetParentTile() = currentNode;
+
+					//If the node isnt in the container
+					if (!IsNodeInContainer(newNode, openNodes))
+					{
+						openNodes.push_back(newNode);
+					}
+				}
+			}
+		}
+
+	};
+}
+
+void MapTilePathfinder::FindLowestFCostNode(MapTile*& node, std::vector<MapTile*>& nodes)
+{
+	//Set node to first node
+	node = nodes[0];
+
+	for (int i(0); i < nodes.size(); ++i)
+	{
+		//If the checked node is lower than first held node, replace it
+		if ((nodes[i]->GetFCost() < node->GetFCost()) || (nodes[i]->GetFCost() == node->GetFCost() && nodes[i]->GetHCost() < node->GetHCost()))
+			node = nodes[i];
+	}
+}
+
+void MapTilePathfinder::RemoveNodeFromContainer(MapTile*& node, std::vector<MapTile*>& nodes)
+{
+	for (int i(0); i < nodes.size(); ++i)
+	{
+		if (node == nodes[i])
+		{
+			nodes.erase(nodes.begin() + i);
+		}
+	}
+}
+
+bool MapTilePathfinder::IsNodeInContainer(MapTile* node, std::vector<MapTile*>& nodes)
+{
+	for (int i(0); i < nodes.size(); ++i)
+	{
+		//If the same tile is found, return true
+		if (node == nodes[i])
+			return true;
+	}
+
+	//Else no tile found, return false
+	return false;
+}
+
+void MapTilePathfinder::EnablePath(MapTile*& endpoint)
+{
+	bool pathDone = false;
+	
+	MapTile* currentNode = endpoint;
+
+	while (!pathDone)
+	{
+		currentNode->GetGridSprite().SetFrame(UI_ATLAS_01_FRAMES::ATTACK_TILE_HIGHLIGHT);
+		
+		//If the node has a parent 
+		if (currentNode->GetParentTile())
+		{
+			currentNode = currentNode->GetParentTile();
+		}
+		//This must be the origin point, so end drawing
+		else
+		{
+			pathDone = true;
+		}
+
+	}
 }

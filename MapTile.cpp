@@ -44,3 +44,33 @@ MapTile* MapTile::FindTileInArray(std::vector<MapTile*>& container, DirectX::XMI
 {
 	return container.at((coords.x + coords.y) + coords.y * rowSize);
 }
+
+void MapTile::CalculateCosts(DirectX::XMINT2& origin, DirectX::XMINT2& target)
+{
+	//Calculate distance from origin
+
+	//Get the X and Y distance difference
+	float dist1 = origin.x - m_MapCoordinates.x;
+	float dist2 = origin.y - m_MapCoordinates.y;
+
+	//If any of these numbers are negative, flip them to postive for the algorithm
+	IsNumberNegative(dist1);
+	IsNumberNegative(dist2);
+
+	m_GCost = (dist1 + dist2) * m_Properties.moveCost;
+
+
+	//Calculate distance from target
+	dist1 = target.x - m_MapCoordinates.x;
+	dist2 = target.y - m_MapCoordinates.y;
+
+	//If any of these numbers are negative, flip them to postive for the algorithm
+	IsNumberNegative(dist1);
+	IsNumberNegative(dist2);
+
+	m_HCost = dist1 + dist2;
+
+
+	//Calculate total cost
+	m_FCost = m_GCost + m_HCost;
+}

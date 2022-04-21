@@ -984,7 +984,7 @@ void MainGameMode::ProcessKeyMoveMenuOpenState(char key)
 	case 'f':
 	case 'F':
 		//If current highlighted tile is in the grid
-		if (m_PathFinder.IsTileInGrid(static_cast<MapTile*>(m_Cursor->GetCurrentTileObject())))
+		if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
 		{
 			//Play Select Audio
 			Game::GetGame()->GetAudioManager().PlayOneShot(
@@ -1029,6 +1029,24 @@ void MainGameMode::ProcessKeyMoveMenuOpenState(char key)
 		if (m_Cursor->SearchForTileObject(m_TileMap, m_MapLimit.x))
 		{
 			UpdateTileTooltip(m_TileTooltip, m_Cursor->GetCurrentTileObject());
+
+			//Run A*
+
+			//If the tile highlighted is in the grid, attempt to path find
+			if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+				const XMINT2& coords = m_Cursor->GetCurrentObject()->GetMapCoordinates();
+				MapTile* tile = m_TileMap.at((coords.x + (coords.y)) + ((coords.y) * m_MapLimit.y));
+				m_PathFinder.RunAStarAlgorithm(tile, m_Cursor->GetCurrentTileObject());
+
+			}
+			//The cursor has likely left the grid, so remove the effect
+			else
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+			}
+
 		}
 		break;
 
@@ -1039,6 +1057,24 @@ void MainGameMode::ProcessKeyMoveMenuOpenState(char key)
 		if (m_Cursor->SearchForTileObject(m_TileMap, m_MapLimit.x))
 		{
 			UpdateTileTooltip(m_TileTooltip, m_Cursor->GetCurrentTileObject());
+
+			//Run A*
+
+			//If the tile highlighted is in the grid, attempt to path find
+			if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+				const XMINT2& coords = m_Cursor->GetCurrentObject()->GetMapCoordinates();
+				MapTile* tile = m_TileMap.at((coords.x + (coords.y)) + ((coords.y) * m_MapLimit.y));
+				m_PathFinder.RunAStarAlgorithm(tile, m_Cursor->GetCurrentTileObject());
+
+			}
+			//The cursor has likely left the grid, so remove the effect
+			else
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+			}
+
 		}
 		break;
 
@@ -1049,6 +1085,42 @@ void MainGameMode::ProcessKeyMoveMenuOpenState(char key)
 		if (m_Cursor->SearchForTileObject(m_TileMap, m_MapLimit.x))
 		{
 			UpdateTileTooltip(m_TileTooltip, m_Cursor->GetCurrentTileObject());
+
+			//Run A*
+
+			//If the tile highlighted is in the grid, attempt to path find
+			if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+				const XMINT2& coords = m_Cursor->GetCurrentObject()->GetMapCoordinates();
+				MapTile* tile = m_TileMap.at((coords.x + (coords.y)) + ((coords.y) * m_MapLimit.y));
+				m_PathFinder.RunAStarAlgorithm(tile, m_Cursor->GetCurrentTileObject());
+
+			}
+			//The cursor has likely left the grid, so remove the effect
+			else
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+
+				//Run A*
+
+				//If the tile highlighted is in the grid, attempt to path find
+				if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
+				{
+					m_PathFinder.ResetGridEffectToDefault();
+					const XMINT2& coords = m_Cursor->GetCurrentObject()->GetMapCoordinates();
+					MapTile* tile = m_TileMap.at((coords.x + (coords.y)) + ((coords.y) * m_MapLimit.y));
+					m_PathFinder.RunAStarAlgorithm(tile, m_Cursor->GetCurrentTileObject());
+
+				}
+				//The cursor has likely left the grid, so remove the effect
+				else
+				{
+					m_PathFinder.ResetGridEffectToDefault();
+				}
+
+			}
+
 		}
 		break;
 
@@ -1059,6 +1131,24 @@ void MainGameMode::ProcessKeyMoveMenuOpenState(char key)
 		if (m_Cursor->SearchForTileObject(m_TileMap, m_MapLimit.x))
 		{
 			UpdateTileTooltip(m_TileTooltip, m_Cursor->GetCurrentTileObject());
+
+			//Run A*
+
+			//If the tile highlighted is in the grid, attempt to path find
+			if (m_PathFinder.IsTileInGrid(m_Cursor->GetCurrentTileObject()))
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+				const XMINT2& coords = m_Cursor->GetCurrentObject()->GetMapCoordinates();
+				MapTile* tile = m_TileMap.at((coords.x + (coords.y)) + ((coords.y) * m_MapLimit.y));
+				m_PathFinder.RunAStarAlgorithm(tile, m_Cursor->GetCurrentTileObject());
+
+			}
+			//The cursor has likely left the grid, so remove the effect
+			else
+			{
+				m_PathFinder.ResetGridEffectToDefault();
+			}
+
 		}
 		break;
 
