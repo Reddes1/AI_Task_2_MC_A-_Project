@@ -78,7 +78,7 @@ private:
 	/// A* Functions ///
 	////////////////////
 
-	void FindLowestFCostNode(MapTile*& node, std::vector<MapTile*>& nodes);
+	void FindLowestCostedNode(MapTile*& node, std::vector<MapTile*>& nodes);
 	void RemoveNodeFromContainer(MapTile*& node, std::vector<MapTile*>& nodes);
 	bool IsNodeInContainer(MapTile* node, std::vector<MapTile*>& nodes);
 	void EnablePath(MapTile*& endpoint);
