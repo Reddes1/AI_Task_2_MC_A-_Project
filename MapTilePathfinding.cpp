@@ -190,34 +190,34 @@ void MapTilePathfinder::ResetGridEffectToDefault()
 void MapTilePathfinder::RunAStarAlgorithm(MapTile* startingTile, MapTile* targetTile)
 {
 	//This container holds nodes that need to be evaluated
-	std::vector<MapTile*> unevaluatedNodes;
+	std::vector<MapTile*> unevaluatedTiles;
 	//This container holds the nodes that have been evaluated
-	std::vector<MapTile*> evaluatedNodes;
+	std::vector<MapTile*> evaluatedTiles;
 
 	//Setup starting node
 	startingTile->CalculateCosts(startingTile->GetMapCoordinates(), targetTile->GetMapCoordinates());
 
 	//Push starting node into open nodes
-	unevaluatedNodes.push_back(startingTile);
+	unevaluatedTiles.push_back(startingTile);
 
-	while (unevaluatedNodes.size() > 0)
+	while (unevaluatedTiles.size() > 0)
 	{
-		MapTile* currentNode = nullptr;
+		MapTile* currentTile = nullptr;
 
 		//Find the lowest F Cost node in open nodes
-		FindLowestCostedNode(currentNode, unevaluatedNodes);
+		FindLowestCostedNode(currentTile, unevaluatedTiles);
 		//Remove the current node from unevaluated container
-		RemoveNodeFromContainer(currentNode, unevaluatedNodes);
+		RemoveNodeFromContainer(currentTile, unevaluatedTiles);
 		//Store it evaluated
-		evaluatedNodes.push_back(currentNode);
+		evaluatedTiles.push_back(currentTile);
 
 		//Check if the current node is the target node break out
-		if ((currentNode->GetMapCoordinates().x == targetTile->GetMapCoordinates().x) &&
-			(currentNode->GetMapCoordinates().y == targetTile->GetMapCoordinates().y))
+		if ((currentTile->GetMapCoordinates().x == targetTile->GetMapCoordinates().x) &&
+			(currentTile->GetMapCoordinates().y == targetTile->GetMapCoordinates().y))
 
 		{
 			//Enable effect on each tile in path
-			EnablePath(currentNode);
+			EnablePath(currentTile);
 			return;
 		}
 
@@ -225,25 +225,25 @@ void MapTilePathfinder::RunAStarAlgorithm(MapTile* startingTile, MapTile* target
 		for (int i(0); i < NUM_OF_NEIGHBOURS; ++i)
 		{
 			//Validate if this neighbour needs evaluating or not
-			if (currentNode->GetNeighbourAtIndex(i) &&
-				IsTileInGrid(currentNode->GetNeighbourAtIndex(i)) &&
-				!currentNode->GetNeighbourAtIndex(i)->GetTileProperties().impassable &&
-				!IsNodeInContainer(currentNode->GetNeighbourAtIndex(i), evaluatedNodes))
+			if (currentTile->GetNeighbourAtIndex(i) &&
+				IsTileInGrid(currentTile->GetNeighbourAtIndex(i)) &&
+				!currentTile->GetNeighbourAtIndex(i)->GetTileProperties().impassable &&
+				!IsNodeInContainer(currentTile->GetNeighbourAtIndex(i), evaluatedTiles))
 			{
 				//Create new node and calculate information about the node
-				MapTile* newNode = currentNode->GetNeighbourAtIndex(i);
-				newNode->CalculateCosts(startingTile->GetMapCoordinates(), targetTile->GetMapCoordinates());
+				MapTile* newTile = currentTile->GetNeighbourAtIndex(i);
+				newTile->CalculateCosts(startingTile->GetMapCoordinates(), targetTile->GetMapCoordinates());
 
 				//Check if H is lower OR not inside the open nodes container
-				if ((newNode->GetHCost() < currentNode->GetHCost()) || !IsNodeInContainer(newNode, unevaluatedNodes))
+				if ((newTile->GetHCost() < currentTile->GetHCost()) || !IsNodeInContainer(newTile, unevaluatedTiles))
 				{
 					//Set the new nodes parent at the currently examined tile
-					newNode->GetParentTile() = currentNode;
+					newTile->GetParentTile() = currentTile;
 
 					//If the node isnt in the container
-					if (!IsNodeInContainer(newNode, unevaluatedNodes))
+					if (!IsNodeInContainer(newTile, unevaluatedTiles))
 					{
-						unevaluatedNodes.push_back(newNode);
+						unevaluatedTiles.push_back(newTile);
 					}
 				}
 			}
